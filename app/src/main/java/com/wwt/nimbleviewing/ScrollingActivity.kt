@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.Snackbar
 import com.wwt.nimbleviewing.databinding.ActivityScrollingBinding
+import kotlinx.android.synthetic.main.content_scrolling.*
 
 class ScrollingActivity : AppCompatActivity() {
     private val listAdapter: AlbumListAdapter by lazy { AlbumListAdapter() }
