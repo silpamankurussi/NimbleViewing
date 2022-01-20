@@ -1,14 +1,18 @@
 package com.wwt.nimbleviewing
 
 import android.app.Application
-import org.koin.core.context.startKoin
+import dagger.hilt.android.HiltAndroidApp
 
+@HiltAndroidApp
 class NimbleviewingApp : Application() {
+
     override fun onCreate() {
+
         super.onCreate()
 
-        startKoin {
+        //sorry I am going to use hilt
+        /*startKoin {
             modules(emptyList()) // TODO: do we need DI yet?
-        }
+        }*/
     }
 }
